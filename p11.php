@@ -9,8 +9,9 @@
     <h1>this is a heading(HTML tag)</h1>
     <?php
     //paragraph printed using PHP tag
-    echo"<p>"This is a paragraph written using PHP.</p>
+    echo"<p>This is a paragraph written using PHP".</p>;
     ?>
 
 </body>
+
 </html>
