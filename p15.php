@@ -6,7 +6,8 @@
 </head>
 <body>
     <?php
-    echo"<p style='color:red;>this is a paragraph is display red color using PHP.</p>";
+    echo"<p style='color:red';>this is a paragraph is display red color using PHP.</p>";
     ?>
 </body>
+
 </html>
