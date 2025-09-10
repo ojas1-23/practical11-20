@@ -1,14 +1,20 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Check Result</title>
-</head>
 <body>
-    <h2>Check Your Result</h2>
-    <form action="p39.html" method="GET">
-        Enter Marks: <input type="number" name="marks" required><br><br>
-        <input type="submit" value="Check Result">
-    </form>
+  <h2>Check Result</h2>
+  <form action="p39.php" method="get">
+    Enter Marks: <input type="number" name="marks" required>
+    <input type="submit" value="Submit">
+  </form>
 </body>
 </html>
+<?php
+if (isset($_GET['marks'])) {
+    $marks = $_GET['marks'];
+    if ($marks >= 40) {
+        echo "PASS";
+    } else {
+        echo "FAIL";
+    }
+}
+?>
